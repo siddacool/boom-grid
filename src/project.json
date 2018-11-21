@@ -1,0 +1,8 @@
+{
+  "name": "boom-grid",
+  "title": "Boom Grid",
+  "description": "an instant 12 column grid based on flexbox. Go Boom",
+  "themeColor": "#bf2600",
+  "backgroundColor": "#bf2600",
+  "isPwa": false
+}

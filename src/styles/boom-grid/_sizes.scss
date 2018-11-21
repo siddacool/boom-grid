@@ -1,0 +1,40 @@
+@function basetable($value_base, $value_iterator) {
+  @return ($value_base * $value_iterator) + px;
+}
+
+@function basetableplain($value_base, $value_iterator) {
+  @return $value_base * $value_iterator;
+}
+
+$b-grid-base-size: $b-grid-base-size;
+$b-grid-base-size-half: basetable($b-grid-base-size, 0.5);
+$b-grid-base-size-1: basetable($b-grid-base-size, 1);
+$b-grid-base-size-2: basetable($b-grid-base-size, 2);
+$b-grid-base-size-3: basetable($b-grid-base-size, 3);
+$b-grid-base-size-4: basetable($b-grid-base-size, 4);
+$b-grid-base-size-5: basetable($b-grid-base-size, 5);
+$b-grid-base-size-6: basetable($b-grid-base-size, 6);
+$b-grid-base-size-7: basetable($b-grid-base-size, 7);
+$b-grid-base-size-8: basetable($b-grid-base-size, 8);
+$b-grid-base-size-9: basetable($b-grid-base-size, 9);
+$b-grid-base-size-10: basetable($b-grid-base-size, 10);
+$b-grid-base-size-11: basetable($b-grid-base-size, 11);
+$b-grid-base-size-12: basetable($b-grid-base-size, 12);
+
+
+// breakpoints media queries
+@mixin b-grid-breakpoint-sm {
+  @media (min-width: $b-grid-breakpoint-sm) { @content; }
+}
+
+@mixin b-grid-breakpoint-md {
+  @media (min-width: $b-grid-breakpoint-md) { @content; }
+}
+
+@mixin b-grid-breakpoint-lg {
+  @media (min-width: $b-grid-breakpoint-lg) { @content; }
+}
+
+@mixin b-grid-breakpoint-xl {
+  @media (min-width: $b-grid-breakpoint-xl) { @content; }
+}
