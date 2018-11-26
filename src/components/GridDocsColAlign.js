@@ -5,18 +5,18 @@ export default function (props) {
   <div class="container">
     <div class="sub-container">
       <h4>Column Self Align <p>(Vertical Alignment)</p></h4>
-      <div class="b-row" style="outline: 2px solid ${color.highlight}; outline-offset: -2px; height: 160px;">
-        <div class="b-col b-col--4 b-col--align-start">
+      <div class="b-row" style="height: 160px;">
+        <div class="b-col b-col--4 b-col--align-start" style="outline: 2px solid ${color.highlight};">
           <div>
             <span class="badge">Start</span>
           </div>
         </div>
-        <div class="b-col b-col--4 b-col--align-center">
+        <div class="b-col b-col--4 b-col--align-center" style="outline: 2px solid ${color.highlight};">
           <div>
             <span class="badge">Center</span>
           </div>
         </div>
-        <div class="b-col b-col--4 b-col--align-end">
+        <div class="b-col b-col--4 b-col--align-end" style="outline: 2px solid ${color.highlight};">
           <div>
             <span class="badge">End</span>
           </div>
