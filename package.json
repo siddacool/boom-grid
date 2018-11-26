@@ -1,6 +1,6 @@
 {
   "name": "boom-grid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "an instant 12 column grid based on flexbox. Go Boom",
   "main": "./",
   "scripts": {
