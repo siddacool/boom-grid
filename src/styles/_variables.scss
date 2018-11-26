@@ -1,8 +1,13 @@
-$base-font: 'segoe ui', Helvatica, arial, sans-serif;
+$base-font: 'Open Sans', sans-serif;
+$heading-font: 'Dosis', sans-serif;
 $code-font: monospace;
 $base-color: #eee;
 $base-alt-color: #000;
 $dull-color: #f4f4f4;
-$font-color: #000;
+$font-color: $aui-n900;
 $font-alt-color: #fff;
 $accent-color: black;
+$grid-base-size: 8;
+
+$b-grid-base-size: $grid-base-size !default;
+$b-grid-gutter-size: 30px !default;

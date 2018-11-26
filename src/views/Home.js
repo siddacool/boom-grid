@@ -1,8 +1,8 @@
-import SomeContainer from '../containers/SomeContainer';
+import HomePageContainer from '../containers/HomePageContainer';
 
 export default function () {
-  const someContainer = SomeContainer();
+  const homePageContainer = HomePageContainer();
 
   const wrapper = document.getElementById('wrapper');
-  wrapper.innerHTML = someContainer;
+  wrapper.innerHTML = homePageContainer;
 }
