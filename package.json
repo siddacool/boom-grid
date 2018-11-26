@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --mode development --open",
     "browser-sync": "webpack-dev-server --mode development --watch",
     "dev": "webpack --mode development",
-    "build": "npm run svg-make && webpack --mode production"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
