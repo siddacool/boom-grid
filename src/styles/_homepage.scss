@@ -121,15 +121,10 @@
 
   h4 {
     font-family: $heading-font;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
-    line-height: 1.5;
+    line-height: 1.35;
     margin-bottom: basetable($grid-base-size, 1);
-
-    @include b-grid-breakpoint-sm {
-      font-size: 18px;
-      line-height: 1.35;
-    }
 
     @include b-grid-breakpoint-md {
       font-size: 22px;
