@@ -983,7 +983,8 @@ body {
     border-radius: 8px;
     color: #0052cc;
     display: block;
-    padding: 16px; }
+    padding: 16px;
+    white-space: pre-line; }
 
 .home-container .table {
   padding: 16px 0; }
