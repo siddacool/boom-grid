@@ -43,7 +43,10 @@ plugins.push(
 );
 
 if (isProduction) {
-  plugins.push(new FaviconsWebpackPlugin('./src/images/favicon.png'));
+  plugins.push(new FaviconsWebpackPlugin({
+    logo: './src/images/favicon.png',
+    background: themeColor,
+  }));
 }
 
 // Progressive webapp
