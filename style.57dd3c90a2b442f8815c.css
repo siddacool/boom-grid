@@ -953,14 +953,10 @@ body {
 
 .home-container h4 {
   font-family: "Dosis", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 1.35;
   margin-bottom: 8px; }
-  @media (min-width: 576px) {
-    .home-container h4 {
-      font-size: 18px;
-      line-height: 1.35; } }
   @media (min-width: 768px) {
     .home-container h4 {
       font-size: 22px;
